@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.test {
+   width: 50vw;
+   height: 50vh;
+   background-color: red;
+}
+
+input :invalid {
+    border-color: red;
+    
+}
