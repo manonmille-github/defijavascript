@@ -1,8 +1,11 @@
+// Exercice 1
+ 
  function color() {
  document.getElementsByClassName("test")[0].style.background = "blue";
   }
 
 
+// Exercice 2
 const button = document.querySelector('.test');
 
 var count= 0
@@ -22,8 +25,11 @@ button.style.background = "red";
 })
 
 
-
+// Exercice 3
 function controle(){
     var saisie = document.getElementById("input").value;
-    alert("Bonjour "+saisie)
+    alert("Bonjour " + saisie + " !")
 }
+
+
+// Exercie 4

@@ -17,7 +17,3 @@ body {
    background-color: red;
 }
 
-input :invalid {
-    border-color: red;
-    
-}
