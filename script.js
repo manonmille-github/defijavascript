@@ -1,3 +1,6 @@
+// 1ere partie
+
+
 // Exercice 1
  
 //  function color() {
@@ -33,29 +36,38 @@
 
 
 // Exercie 4
-// var re = /[a-zA-Z]+/g
-// function valider(){
-//   var OK = re.exec()
-//     if (!ok)
-//     alert("le nom n'est pas valide");
-//     else 
-//     alert("Merci votre nom est : "+OK[0]  
+
+
+// function controle(){
+//   var name = document.getElementById("input").value;
+//   var regex = new RegExp("^[a-zA-ZéèàêÇÉÈÀëË]*$");
+ 
+//   if (regex.test(name))
+//   {
+//     document.getElementById("input").className = "valide"
+//     document.getElementById("validation").innerHTML = "Message envoyé"
+//   }
+//   else
+//   {
+//     document.getElementById("input").className = "invalide"
+//     document.getElementById("validation").innerHTML = "Recommencez"
+//   }
 // }
 
-
-
+// function controle(){
+//     var saisie = document.getElementById("input").value;
+//     alert("Bonjour " + saisie + "!")
+// 2eme partie
 function controle(){
-  var name = document.getElementById("input").value;
-  var regex = new RegExp("^[a-zA-ZéèàêÇÉÈÀëË]*$");
- 
-  if (regex.test(name))
-  {
-    document.getElementById("input").className = "valide"
-    document.getElementById("validation").innerHTML = "Message envoyé"
-  }
-  else
-  {
-    document.getElementById("input").className = "invalide"
-    document.getElementById("validation").innerHTML = "Recommencez"
-  }
+var name = document.getElementById("name").value;
+var age = 2021 - document.getElementById("yearofbirth").value;
+if (age < 18)
+{
+  document.getElementById("reply").innerHTML = "Bonjour "+name+", tu as "+age+" ans. Couareg encore quelques années avant la majorité!"
+  // alert("Bonjour " + name + ", tu as " + age + " ans. Courage, encore quelques années avant la majorité!")
+}
+else {
+  document.getElementById("reply").innerHTML = "Bonjour "+name+", tu as "+age+" ans."
+  // alert("Bonjour " + name + ", tu as " + age + " ans.")
+}
 }
