@@ -46,17 +46,16 @@
 
 function controle(){
   var name = document.getElementById("input").value;
-  var regex = new RegExp("^[a-zA-Zéèàê]*$");
-  console.log(regex.test(name))
+  var regex = new RegExp("^[a-zA-ZéèàêÇÉÈÀëË]*$");
+ 
   if (regex.test(name))
   {
     document.getElementById("input").className = "valide"
-    
-    alert ("envoyé "+ name)
+    document.getElementById("validation").innerHTML = "Message envoyé"
   }
   else
   {
     document.getElementById("input").className = "invalide"
-    alert ("recommencez")
+    document.getElementById("validation").innerHTML = "Recommencez"
   }
 }
