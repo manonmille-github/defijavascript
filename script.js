@@ -54,20 +54,26 @@
 //   }
 // }
 
-// function controle(){
-//     var saisie = document.getElementById("input").value;
-//     alert("Bonjour " + saisie + "!")
+
+
 // 2eme partie
-function controle(){
-var name = document.getElementById("name").value;
-var age = 2021 - document.getElementById("yearofbirth").value;
-if (age < 18)
-{
-  document.getElementById("reply").innerHTML = "Bonjour "+name+", tu as "+age+" ans. Couareg encore quelques années avant la majorité!"
-  // alert("Bonjour " + name + ", tu as " + age + " ans. Courage, encore quelques années avant la majorité!")
-}
-else {
-  document.getElementById("reply").innerHTML = "Bonjour "+name+", tu as "+age+" ans."
-  // alert("Bonjour " + name + ", tu as " + age + " ans.")
-}
-}
+
+// exercice Age
+
+
+// function controle(){
+// var name = document.getElementById("name").value;
+// var age = 2021 - document.getElementById("yearofbirth").value;
+// if (age < 18)
+// {
+//   document.getElementById("reply").innerHTML = "Bonjour "+name+", tu as "+age+" ans. Courage encore quelques années avant la majorité!"
+//   // alert("Bonjour " + name + ", tu as " + age + " ans. Courage, encore quelques années avant la majorité!")
+// }
+// else {
+//   document.getElementById("reply").innerHTML = "Bonjour "+name+", tu as "+age+" ans."
+//   // alert("Bonjour " + name + ", tu as " + age + " ans.")
+// }
+// }
+
+// Exercice 3 boutons
+
